@@ -19,6 +19,30 @@ const DOCUMENTS = Object.freeze({
     file: 'equality-and-justice-commentaries.eepdf',
     downloadName: 'Equality-and-Justice-Essay-Commentaries.pdf',
   },
+  'interdisciplinary-sample-c': {
+    file: 'interdisciplinary-sample-c.eepdf',
+    downloadName: 'Interdisciplinary-EE-Sample-C.pdf',
+  },
+  'culture-identity-expression-c': {
+    file: 'culture-identity-expression-c.eepdf',
+    downloadName: 'Culture-Identity-Expression-C-Commentary.pdf',
+  },
+  'language-a-criterion-e': {
+    file: 'language-a-criterion-e-commentary.eepdf',
+    downloadName: 'Language-A-Criterion-E-Commentary.pdf',
+  },
+  'language-a-rpf': {
+    file: 'language-a-reflection-progress-form.eepdf',
+    downloadName: 'Language-A-Reflection-and-Progress-Form.pdf',
+  },
+  'chemistry-criterion-e': {
+    file: 'chemistry-criterion-e-commentary.eepdf',
+    downloadName: 'Chemistry-Criterion-E-Commentary.pdf',
+  },
+  'chemistry-rpf': {
+    file: 'chemistry-reflection-progress-form.eepdf',
+    downloadName: 'Chemistry-Reflection-and-Progress-Form.pdf',
+  },
 });
 
 export default function handler(req, res) {
