@@ -98,7 +98,7 @@ h2 { color: var(--green); font-size: clamp(2.25rem,4.2vw,3.55rem); line-height: 
 .section-intro { color: #596964; font-size: 1rem; line-height: 1.7; max-width: 790px; margin: 0; }
 .section-intro a { font-size: .8em; font-weight: 700; text-decoration: none; white-space: nowrap; }
 .facts-strip { display: grid; grid-template-columns: repeat(4,1fr); gap: 0; margin: 28px 0 22px; border-top: 1px solid var(--green); border-bottom: 1px solid var(--line); }
-.fact { min-height: 122px; padding: 19px 16px 18px 0; border-right: 1px solid var(--line); display: flex; flex-direction: column; justify-content: center; }
+.fact { min-height: 122px; padding: 19px 16px 18px 0; border-right: 1px solid var(--line); display: flex; flex-direction: column; justify-content: flex-start; }
 .fact:not(:first-child) { padding-left: 20px; }
 .fact:last-child { border-right: 0; }
 .fact-number { color: var(--green); font: 500 clamp(2rem,3vw,2.8rem)/1 var(--serif); letter-spacing: -.04em; }
