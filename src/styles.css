@@ -659,3 +659,15 @@ body { font-size: 20px; }
   .teacher-login-controls .button { width: 100%; }
   .teacher-room-footer { align-items: flex-start; flex-direction: column; gap: 8px; }
 }
+
+
+/* Public student download placed with the final submission checklist. */
+.master-checklist-download { display: flex; align-items: center; justify-content: space-between; gap: 24px; margin: 0 0 25px; padding: 22px 24px; border: 1px solid var(--line); border-left: 4px solid var(--orange); border-radius: 6px; background: #fffdfa; }
+.master-checklist-download .panel-label { margin: 0 0 7px; color: #94634d; }
+.master-checklist-download h3 { margin: 0 0 8px; color: var(--green); font: 500 clamp(1.35rem,2.3vw,1.8rem)/1.2 var(--serif); }
+.master-checklist-download p:last-child { max-width: 780px; margin: 0; color: #5d6c66; line-height: 1.5; }
+.master-checklist-download .button { flex: 0 0 auto; white-space: nowrap; }
+@media (max-width: 760px) {
+  .master-checklist-download { align-items: flex-start; flex-direction: column; gap: 14px; padding: 18px; }
+  .master-checklist-download .button { width: 100%; justify-content: center; }
+}
