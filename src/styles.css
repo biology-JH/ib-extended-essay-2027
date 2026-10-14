@@ -671,3 +671,15 @@ body { font-size: 20px; }
   .master-checklist-download { align-items: flex-start; flex-direction: column; gap: 14px; padding: 18px; }
   .master-checklist-download .button { width: 100%; justify-content: center; }
 }
+
+
+/* Emphasize that the reflection sequence guides thinking, not wording. */
+.reflection-voice-callout { display: flex; align-items: center; gap: 16px; margin: 19px 0 29px; padding: 19px 22px; border: 1px solid #e8d9c9; border-left: 4px solid var(--orange); border-radius: 6px; background: #f7efe1; }
+.reflection-voice-mark { flex: 0 0 auto; color: var(--orange); font: 500 3.2rem/.8 var(--serif); }
+.reflection-voice-callout p { margin: 0; }
+.reflection-voice-callout .panel-label { display: block; margin: 0 0 5px; color: #94634d; }
+.reflection-voice-callout strong { display: block; color: var(--green); font: italic 500 clamp(1.2rem,2vw,1.55rem)/1.35 var(--serif); }
+@media (max-width: 760px) {
+  .reflection-voice-callout { align-items: flex-start; gap: 11px; margin-block: 16px 24px; padding: 17px; }
+  .reflection-voice-mark { font-size: 2.5rem; }
+}
