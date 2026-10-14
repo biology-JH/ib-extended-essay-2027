@@ -1,6 +1,8 @@
 node_modules/
 dist/
 .vercel/
+# Plaintext teacher PDFs must never enter the public repository.
+private-docs/*.pdf
 .env
 .env.*
 !.env.example

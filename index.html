@@ -44,7 +44,7 @@
   </figure>
 
   <nav class="mobile-toc" aria-label="Jump to a section">
-    <a href="#at-a-glance">At a glance</a><a href="#changes">2027 changes</a><a href="#assessment">Assessment</a><a href="#pathways">Pathways</a><a href="#question">Question</a><a href="#research">Research</a><a href="#reflection">Reflection</a><a href="#ai">AI use</a><a href="#supervisor">Supervision</a><a href="#final-check">Final checks</a><a href="#sources">Sources</a>
+    <a href="#at-a-glance">At a glance</a><a href="#changes">2027 changes</a><a href="#assessment">Assessment</a><a href="#pathways">Pathways</a><a href="#question">Question</a><a href="#research">Research</a><a href="#reflection">Reflection</a><a href="#ai">AI use</a><a href="#supervisor">Supervision</a><a href="#teacher-resources">Teachers’ resources</a><a href="#final-check">Final checks</a><a href="#sources">Sources</a>
   </nav>
 
   <div class="page-shell">
@@ -60,6 +60,7 @@
         <a href="#reflection">Reflect & meet</a>
         <a href="#ai">Use AI responsibly</a>
         <a href="#supervisor">Teacher & supervisor</a>
+        <a href="#teacher-resources">Teachers’ resources</a>
         <a href="#final-check">Final checks</a>
         <a href="#sources">Sources & notes</a>
       </nav>
@@ -488,9 +489,64 @@
         <div class="authenticity-note"><strong>Feedback boundary:</strong> identify areas to improve, but do not rewrite, line-edit or dictate exact changes. Follow the current draft-feedback limit; the school supervisor remains accountable if an external mentor helps.</div>
       </section>
 
+      <section class="section-block section-tinted" id="teacher-resources" aria-labelledby="teacher-resources-title">
+        <div class="section-heading">
+          <p class="section-index">10 <span>TEACHERS & SUPERVISORS</span></p>
+          <h2 id="teacher-resources-title">Teachers’ resource room</h2>
+          <p class="section-intro">A password-restricted area for the supplied Equality and Justice teaching resources. The PDFs are served only after the shared password is accepted.</p>
+        </div>
+        <div class="teacher-room-card">
+          <div class="teacher-room-banner">
+            <span class="teacher-room-mark" aria-hidden="true">EE</span>
+            <div>
+              <p class="panel-label">SHARED STAFF ACCESS</p>
+              <h3>Reference PDFs for teachers</h3>
+              <p>Enter the shared password to unlock the files. Access lasts up to eight hours in this browser; lock the area again when using a shared device.</p>
+            </div>
+          </div>
+          <div id="teacher-locked">
+            <form class="teacher-login-form" id="teacher-login-form">
+              <label for="teacher-password">Shared password</label>
+              <div class="teacher-login-controls">
+                <input id="teacher-password" name="password" type="password" autocomplete="current-password" autocapitalize="off" spellcheck="false" maxlength="256" required />
+                <button class="button button-primary" type="submit">Unlock resources <span aria-hidden="true">→</span></button>
+              </div>
+              <p class="teacher-status" id="teacher-login-message" role="status" aria-live="polite">Enter the shared password to view and download the files.</p>
+            </form>
+            <noscript><p class="teacher-noscript">Enable JavaScript to authenticate and access these files.</p></noscript>
+          </div>
+          <div id="teacher-unlocked" hidden>
+            <h3 id="teacher-documents-heading" tabindex="-1">Available resources</h3>
+            <div class="teacher-documents">
+              <article class="teacher-document">
+                <p class="panel-label">SAMPLE ESSAY</p>
+                <h4>Equality and Justice — Extended Essay</h4>
+                <p>Example essay for teaching and supervisory discussion.</p>
+                <a class="button button-primary" href="/api/teachers/document?id=extended-essay">Download PDF <span aria-hidden="true">↓</span></a>
+              </article>
+              <article class="teacher-document">
+                <p class="panel-label">REFLECTION FORM</p>
+                <h4>Reflection and Progress Form (RPF)</h4>
+                <p>RPF form for the May/November 2027 assessment session.</p>
+                <a class="button button-primary" href="/api/teachers/document?id=rpf">Download PDF <span aria-hidden="true">↓</span></a>
+              </article>
+              <article class="teacher-document">
+                <p class="panel-label">ASSESSMENT COMMENTARY</p>
+                <h4>Equality and Justice — essay commentaries</h4>
+                <p>Commentary to support discussion of example work and assessment.</p>
+                <a class="button button-primary" href="/api/teachers/document?id=commentaries">Download PDF <span aria-hidden="true">↓</span></a>
+              </article>
+            </div>
+            <div class="teacher-room-footer">
+              <p>Keep the shared password within the teaching team.</p>
+              <button class="teacher-signout" id="teacher-signout" type="button">Lock documents</button>
+            </div>
+          </div>
+        </div>
+      </section>
       <section class="section-block section-tinted" id="final-check" aria-labelledby="final-title">
         <div class="section-heading">
-          <p class="section-index">10 <span>BEFORE YOU SUBMIT</span></p>
+          <p class="section-index">11 <span>BEFORE YOU SUBMIT</span></p>
           <h2 id="final-title">A clear final check</h2>
           <p class="section-intro">Use this as a last read-through—not a substitute for the current guide, your subject’s conventions or school instructions.</p>
         </div>
@@ -512,7 +568,7 @@
 
       <section class="section-block sources-section" id="sources" aria-labelledby="sources-title">
         <div class="section-heading">
-          <p class="section-index">11 <span>READ THE RIGHT GUIDE</span></p>
+          <p class="section-index">12 <span>READ THE RIGHT GUIDE</span></p>
           <h2 id="sources-title">Sources & use notes</h2>
           <p class="section-intro">This is a plain-language summary of the official first-assessment-2027 guide. Use the full guide for exact descriptors and subject-specific rules.</p>
         </div>
