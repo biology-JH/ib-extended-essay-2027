@@ -7,6 +7,22 @@ import {
 import { decryptTeacherDocument } from '../../lib/teacher-documents.js';
 
 const DOCUMENTS = Object.freeze({
+  'viva-voce-sample-questions': {
+    file: 'viva-voce-sample-questions.eepdf',
+    downloadName: 'Viva-Voce-Sample-Questions.pdf',
+  },
+  'design-technology-a-ee': {
+    file: 'design-technology-a-ee.eepdf',
+    downloadName: 'Design-Technology-A-Extended-Essay.pdf',
+  },
+  'design-technology-a-rpf': {
+    file: 'design-technology-a-rpf.eepdf',
+    downloadName: 'Design-Technology-A-Reflection-and-Progress-Form.pdf',
+  },
+  'design-technology-a-commentary': {
+    file: 'design-technology-a-commentary.eepdf',
+    downloadName: 'Design-Technology-A-Commentary.pdf',
+  },
   'extended-essay': {
     file: 'equality-and-justice-extended-essay.eepdf',
     downloadName: 'Equality-and-Justice-Extended-Essay.pdf',
